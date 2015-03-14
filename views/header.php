@@ -8,7 +8,10 @@
         <!-- css-y -->
         <link href="<?php echo URL; ?>public/css/bootstrap.min.css" rel="stylesheet">
         <link href="<?php echo URL; ?>public/css/docs.min.css" rel="stylesheet">
-
+        <link rel="stylesheet" href="<?php echo URL; ?>public/css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="<?php echo URL; ?>public/css/style.css" type="text/css">
+        
+        
         <!-- skrypty -->
         <script src="<?php echo URL; ?>public/js/jquery.min.js"></script>
         <script src="<?php echo URL; ?>public/js/bootstrap.min.js "></script>
