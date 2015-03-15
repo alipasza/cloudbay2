@@ -1,6 +1,6 @@
 <!-- Footer -->
+
 <footer class="bs-docs-footer" role="contentinfo">
-    <div class="bs-docs-social">
         <ul class="bs-docs-social-buttons">
             <li><a href="https://plus.google.com/+cloudbay" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a></li>
             <li>&middot;</li><li>&middot;</li><li>&middot;</li>
@@ -23,7 +23,6 @@
             <li>&middot;</li>
             <li><a href="../">Terms and Privacy</a></li>
         </ul>
-    </div>
-</footer>
+    </footer>
 </body>
 </html>

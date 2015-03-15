@@ -10,8 +10,7 @@
         <link href="<?php echo URL; ?>public/css/docs.min.css" rel="stylesheet">
         <link rel="stylesheet" href="<?php echo URL; ?>public/css/font-awesome.min.css" type="text/css">
         <link rel="stylesheet" href="<?php echo URL; ?>public/css/style.css" type="text/css">
-        
-        
+
         <!-- skrypty -->
         <script src="<?php echo URL; ?>public/js/jquery.min.js"></script>
         <script src="<?php echo URL; ?>public/js/bootstrap.min.js "></script>
@@ -29,18 +28,19 @@
     <body id="<?php echo $bodyName; ?>" class="bs-docs-home">
         <a id="skippy" class="sr-only sr-only-focusable" href="#content"><div class="container"><span class="skiplink-text">Skip to main content</span></div></a>
 
-        <!-- Docs master nav -->
         <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
             <div class="container">
-                <div class="navbar-header">
+
+                <div class="navbar-header" <strong style="background-color: #BFC0F9;"></strong>
                     <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="../" class="navbar-brand">CloudBay</a>
+                    <a href="../" class="navbar-brand">cloudBay</a>
                 </div>
+
                 <nav class="collapse navbar-collapse bs-navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li>
@@ -59,7 +59,6 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href=<?php echo URL . 'index?lang=PL'; ?> onclick="ga('send', 'event', 'Navbar', 'Community links', 'Expo');"><?php echo $this->ltext[Session::get("lang")]['header-login']; ?></a></li>
                         <li>
-
                             <div class="btn-group pull-right" role="group">
                                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href=<?php echo URL . 'index?lang=PL'; ?>>
                                     <?php echo Session::get("lang"); ?>

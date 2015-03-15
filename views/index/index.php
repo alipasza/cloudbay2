@@ -8,12 +8,6 @@
 
         </p>
         <p class="version">Currently v3.3.2</p>
-        <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script>var z = document.createElement("script");
-            z.async = true;
-            z.src = "http://engine.carbonads.com/z/32341/azcarbon_2_1_0_HORIZ";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(z, s);</script></div></div>
-
     </div>
 </main>
 <!--2 szyba -->
@@ -44,41 +38,41 @@
 
         <hr class="half-rule">
 
-        <p class="lead">Bootstrap is open source. It's hosted, developed, and maintained on GitHub.</p>
-        <a href="https://github.com/twbs/bootstrap" class="btn btn-outline btn-lg">View the GitHub project</a>
+        <p class="lead">cloudBay is for everyone.<br> It's hosted, developed, and maintained in Cloud from Microsoft Azure or Google Cloud.</p>
+        <a href="../" class="btn btn-outline btn-lg">View our projects</a>
     </div>
 </div>
 <!--3 szyba -->
-<div class="bs-docs-featurette" <strong style="background-color: #BFC0F9;"></strong> <!-- #AAF9CC ; #8CF6EA ; #BFC0F9-->
+<div class="bs-docs-featurette" <strong style="background-color: #99EDAE;"></strong> <!-- #AAF9CC ; #8CF6EA ; #BFC0F9-->
     <div class="container">
-        <h2 class="bs-docs-featurette-title">Built with Bootstrap.</h2>
-        <p class="lead">Millions of amazing sites across the web are being built with Bootstrap. Get started on your own with our growing <a href="../getting-started/#examples">collection of examples</a> or by exploring some of our favorites.</p>
+        <h2 class="bs-docs-featurette-title">Create your firm with cloudBay.</h2>
+        <p class="lead">Millions of clients across the web are being in your reach. Get started on your own with our growing <a href="../">collection of examples</a> or by exploring some of our favorites.</p>
 
         <hr class="half-rule">
 
         <div class="row bs-docs-featured-sites">
 
-            <div class="col-xs-6 col-sm-3">
+            <div class="col-xs-6 col-sm-3" class="mar-right-20">
                 <a href="http://expo.getbootstrap.com/2014/10/29/lyft/" target="_blank" title="Lyft">
-                    <img src="http://expo.getbootstrap.com/thumbs/lyft-thumb.jpg" alt="Lyft" class="img-responsive">
+                    <img src="<?php echo URL; ?>public/images/lyft-thumb.jpg" alt="Lyft" class="img-responsive">
                 </a>
             </div>
-
+            
             <div class="col-xs-6 col-sm-3">
                 <a href="http://expo.getbootstrap.com/2014/09/30/vogue/" target="_blank" title="Vogue">
-                    <img src="http://expo.getbootstrap.com/thumbs/vogue-thumb.jpg" alt="Vogue" class="img-responsive">
+                    <img src="<?php echo URL; ?>public/images/vogue-thumb.jpg" alt="Vogue" class="img-responsive">
                 </a>
             </div>
 
             <div class="col-xs-6 col-sm-3">
                 <a href="http://expo.getbootstrap.com/2014/03/13/riot-design/" target="_blank" title="Riot Design">
-                    <img src="http://expo.getbootstrap.com/thumbs/riot-thumb.jpg" alt="Riot Design" class="img-responsive">
+                    <img src="<?php echo URL; ?>public/images/riot-thumb.jpg" alt="Riot Design" class="img-responsive">
                 </a>
             </div>
 
             <div class="col-xs-6 col-sm-3">
                 <a href="http://expo.getbootstrap.com/2014/02/12/newsweek/" target="_blank" title="Newsweek">
-                    <img src="http://expo.getbootstrap.com/thumbs/newsweek-thumb.jpg" alt="Newsweek" class="img-responsive">
+                    <img src="<?php echo URL; ?>public/images/newsweek-thumb.jpg" alt="Newsweek" class="img-responsive">
                 </a>
             </div>
 
@@ -86,7 +80,7 @@
 
         <hr class="half-rule">
 
-        <p class="lead">We showcase dozens of inspiring projects built with Bootstrap on the Bootstrap Expo.</p>
-        <a href="http://expo.getbootstrap.com" class="btn btn-outline btn-lg">Explore the Expo</a>
+        <p class="lead">We support dozens of inspiring projects built with CRM.</p>
+        <a href="../" class="btn btn-outline btn-lg">Explore the CRM</a>
     </div>
 </div>
